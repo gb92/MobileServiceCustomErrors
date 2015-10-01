@@ -1,2 +1,2 @@
 ﻿[config]
-command = ..\ZumoDeploy.cmd
+command = powershell Set-ExecutionPolicy RemoteSigned -Scope Process; .\customdeploy.ps1
